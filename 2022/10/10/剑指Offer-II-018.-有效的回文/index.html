@@ -20,20 +20,19 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="该文章用于测试。">
+  <meta name="description" content="题目剑指Offer II 018. 有效的回文 代码方法一：调用翻转API123456789101112class Solution &amp;#123;public:    bool isPalindrome(string s) &amp;#123;        string ss,ssr;        for(auto &amp;ch: s)&amp;#123;            if(isalnum(ch)">
 <meta property="og:type" content="article">
-<meta property="og:title" content="test tags">
-<meta property="og:url" content="http://example.com/2022/10/06/test/index.html">
+<meta property="og:title" content="剑指Offer II 018. 有效的回文">
+<meta property="og:url" content="http://example.com/2022/10/10/%E5%89%91%E6%8C%87Offer-II-018.-%E6%9C%89%E6%95%88%E7%9A%84%E5%9B%9E%E6%96%87/index.html">
 <meta property="og:site_name" content="Beibei&#39;s Blog">
-<meta property="og:description" content="该文章用于测试。">
+<meta property="og:description" content="题目剑指Offer II 018. 有效的回文 代码方法一：调用翻转API123456789101112class Solution &amp;#123;public:    bool isPalindrome(string s) &amp;#123;        string ss,ssr;        for(auto &amp;ch: s)&amp;#123;            if(isalnum(ch)">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-10-06T09:35:36.795Z">
-<meta property="article:modified_time" content="2022-10-06T09:43:35.334Z">
+<meta property="article:published_time" content="2022-10-10T00:57:35.554Z">
+<meta property="article:modified_time" content="2022-10-10T00:57:35.554Z">
 <meta property="article:author" content="beibei">
-<meta property="article:tag" content="测试标签">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/2022/10/06/test/">
+<link rel="canonical" href="http://example.com/2022/10/10/%E5%89%91%E6%8C%87Offer-II-018.-%E6%9C%89%E6%95%88%E7%9A%84%E5%9B%9E%E6%96%87/">
 
 
 <script id="page-configurations">
@@ -46,7 +45,7 @@
   };
 </script>
 
-  <title>test tags | Beibei's Blog</title>
+  <title>剑指Offer II 018. 有效的回文 | Beibei's Blog</title>
   
 
 
@@ -161,7 +160,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/10/06/test/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/10/10/%E5%89%91%E6%8C%87Offer-II-018.-%E6%9C%89%E6%95%88%E7%9A%84%E5%9B%9E%E6%96%87/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -174,7 +173,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          test tags
+          剑指Offer II 018. 有效的回文
         </h1>
 
         <div class="post-meta">
@@ -183,9 +182,8 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2022-10-06 17:35:36 / 修改时间：17:43:35" itemprop="dateCreated datePublished" datetime="2022-10-06T17:35:36+08:00">2022-10-06</time>
+              <time title="创建时间：2022-10-10 08:57:35" itemprop="dateCreated datePublished" datetime="2022-10-10T08:57:35+08:00">2022-10-10</time>
             </span>
 
           
@@ -199,12 +197,14 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>该文章用于测试。</p>
-<span id="more"></span>
+        <h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/XltzEq/">剑指Offer II 018. 有效的回文</a></p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h3 id="方法一：调用翻转API"><a href="#方法一：调用翻转API" class="headerlink" title="方法一：调用翻转API"></a>方法一：调用翻转API</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">isPalindrome</span><span class="params">(string s)</span> </span>&#123;</span><br><span class="line">        string ss,ssr;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> &amp;ch: s)&#123;</span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">isalnum</span>(ch))</span><br><span class="line">                    ss += <span class="built_in">tolower</span>(ch);</span><br><span class="line">        &#125;</span><br><span class="line">        ssr.<span class="built_in">assign</span>(ss.<span class="built_in">rbegin</span>(), ss.<span class="built_in">rend</span>());</span><br><span class="line">        <span class="keyword">return</span> ss == ssr;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<h1 id="Hello"><a href="#Hello" class="headerlink" title="Hello"></a>Hello</h1><h2 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="方法二：原字符串上进行处理"><a href="#方法二：原字符串上进行处理" class="headerlink" title="方法二：原字符串上进行处理"></a>方法二：原字符串上进行处理</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">isPalindrome</span><span class="params">(string s)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> n = s.<span class="built_in">size</span>();</span><br><span class="line">        <span class="type">int</span> start = <span class="number">0</span>, end = n - <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span>(start &lt; end)&#123;</span><br><span class="line">            <span class="keyword">while</span>(!<span class="built_in">isalnum</span>(s[start]) &amp;&amp; start &lt; end)</span><br><span class="line">                ++start;</span><br><span class="line">            <span class="keyword">while</span>(!<span class="built_in">isalnum</span>(s[end]) &amp;&amp; start &lt; end)</span><br><span class="line">                --end;</span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">tolower</span>(s[start]) != <span class="built_in">tolower</span>(s[end]))</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">            start++;</span><br><span class="line">            end--;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 
+
+<h2 id="细节"><a href="#细节" class="headerlink" title="细节"></a>细节</h2><h3 id="tolower函数"><a href="#tolower函数" class="headerlink" title="tolower函数"></a>tolower函数</h3><h3 id="isalnum函数"><a href="#isalnum函数" class="headerlink" title="isalnum函数"></a>isalnum函数</h3><h3 id="翻转API"><a href="#翻转API" class="headerlink" title="翻转API"></a>翻转API</h3>
     </div>
 
     
@@ -212,9 +212,6 @@
     
 
       <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE/" rel="tag"># 测试标签</a>
-          </div>
 
         
 
@@ -222,10 +219,13 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2022/10/06/hello-world/" rel="prev" title="Hello World">
-      <i class="fa fa-chevron-left"></i> Hello World
+    <a href="/2022/10/08/STL%E5%BA%93/" rel="prev" title="C++ STL库">
+      <i class="fa fa-chevron-left"></i> C++ STL库
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2022/10/10/%E5%89%91%E6%8C%87Offer%20II%20020.%20%E5%9B%9E%E6%96%87%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E4%B8%AA%E6%95%B0/" rel="next" title="剑指Offer II 020. 回文子字符串的个数">
+      剑指Offer II 020. 回文子字符串的个数 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -284,7 +284,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hello"><span class="nav-number">1.</span> <span class="nav-text">Hello</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#hello"><span class="nav-number">1.1.</span> <span class="nav-text">hello</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE"><span class="nav-number">1.</span> <span class="nav-text">题目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81"><span class="nav-number">2.</span> <span class="nav-text">代码</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%B8%80%EF%BC%9A%E8%B0%83%E7%94%A8%E7%BF%BB%E8%BD%ACAPI"><span class="nav-number">2.1.</span> <span class="nav-text">方法一：调用翻转API</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%BA%8C%EF%BC%9A%E5%8E%9F%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8A%E8%BF%9B%E8%A1%8C%E5%A4%84%E7%90%86"><span class="nav-number">2.2.</span> <span class="nav-text">方法二：原字符串上进行处理</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%86%E8%8A%82"><span class="nav-number">3.</span> <span class="nav-text">细节</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#tolower%E5%87%BD%E6%95%B0"><span class="nav-number">3.1.</span> <span class="nav-text">tolower函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#isalnum%E5%87%BD%E6%95%B0"><span class="nav-number">3.2.</span> <span class="nav-text">isalnum函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BF%BB%E8%BD%ACAPI"><span class="nav-number">3.3.</span> <span class="nav-text">翻转API</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -300,9 +300,15 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
